@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    body,
+    option {
+      font-size: 16px;
+    }
+
+    #zorgImg {
+      width: 150px;
+    }
+
+    select {
+      margin: 0px 5px;
+    }
+
+    #response {
+      color: green
+    }
+
+    #bottomSpacer {
+      height: 30vh
+    }
+  </style>
+
+  <script type="text/javascript" src="zorg.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professor Zorg's Guide to Alien Etiquette</title>
+</head>
+
+<body>
+  <h1>Professor Zorg's Guide to Alien Etiquette</h1>
+  <p>
+    <img id="zorgImg" src="zorg.png" alt="Professor Zorg" />
+  </p>
+
+  <p>If an alien said to you:</p>
+
+  <p>
+    <select id="word1" size="12" onchange="updateResponse()">
+      <option value="0">Hudped</option>
+      <option value="1">Ogallala</option>
+      <option value="2">Quikikow</option>
+      <option value="3">Regorjo</option>
+      <option value="4">Rupatupa</option>
+      <option value="5">Slylandro</option>
+      <option value="6">Snellopy</option>
+      <option value="7">Utwig</option>
+      <option value="8">Wahg-nagl</option>
+      <option value="9">Zegwumf</option>
+      <option value="10">Zgrebo</option>
+      <option value="11" selected="selected">Zoq-fot-pik</option>
+    </select>
+
+    <select id="word2" size="12" onchange="updateResponse()">
+      <option value="0">Brewzki</option>
+      <option value="1">Cixelsyd</option>
+      <option value="2">Foon-Foon</option>
+      <option value="3" selected="selected">Ibuba</option>
+      <option value="4">Jinkeez</option>
+      <option value="5">Knadsh</option>
+      <option value="6">Phlegmorf</option>
+      <option value="7">Phlendo</option>
+      <option value="8">Pkunk</option>
+      <option value="9">Quidozer</option>
+      <option value="10">Tarnoon</option>
+      <option value="11">Zznop</option>
+    </select>
+
+    <select id="word3" size="12" onchange="updateResponse()">
+      <option value="0" selected="selected">Chupp</option>
+      <option value="1">Disco</option>
+      <option value="2">Guph</option>
+      <option value="3">Lurg</option>
+      <option value="4">Mali</option>
+      <option value="5">Orz</option>
+      <option value="6">Pzark</option>
+      <option value="7">Snerg</option>
+      <option value="8">Snorn</option>
+      <option value="9">Thrddash</option>
+      <option value="10">Zlod</option>
+      <option value="11">Znork</option>
+    </select>
+
+    <select id="word4" size="12" onchange="updateResponse()">
+      <option value="0">Blork</option>
+      <option value="1">Dargfark</option>
+      <option value="2">Ei-Ei-O</option>
+      <option value="3" selected="selected">Ggek</option>
+      <option value="4">Kahr</option>
+      <option value="5">Kterbi</option>
+      <option value="6">Nargle</option>
+      <option value="7">Shlupp</option>
+      <option value="8">Supox</option>
+      <option value="9">Xox</option>
+      <option value="10">Yoff</option>
+      <option value="11">Yush</option>
+    </select>
+  </p>
+
+  <p>
+  <p>The proper response is:</p>
+  <h3 id="response"></h3>
+  </p>
+
+  <div id="bottomSpacer"></div>
+
+  <script>updateResponse()</script>
+</body>
+
+</html>
