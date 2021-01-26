@@ -71,3 +71,5 @@ function updateResponse() {
 
 	setResponse(response);
 }
+
+updateResponse();
