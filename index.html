@@ -12,6 +12,10 @@
       font-size: 16px;
     }
 
+    label {
+      display: none;
+    }
+
     #zorgImg {
       width: 150px;
     }
@@ -45,6 +49,7 @@
   <p>If an alien said to you:</p>
 
   <p>
+    <label for="word1">First word</label>
     <select id="word1" size="12" onchange="updateResponse()">
       <option value="0">Hudped</option>
       <option value="1">Ogallala</option>
@@ -60,6 +65,7 @@
       <option value="11" selected="selected">Zoq-fot-pik</option>
     </select>
 
+    <label for="word2">Second word</label>
     <select id="word2" size="12" onchange="updateResponse()">
       <option value="0">Brewzki</option>
       <option value="1">Cixelsyd</option>
@@ -75,6 +81,7 @@
       <option value="11">Zznop</option>
     </select>
 
+    <label for="word3">Third word</label>
     <select id="word3" size="12" onchange="updateResponse()">
       <option value="0" selected="selected">Chupp</option>
       <option value="1">Disco</option>
@@ -90,6 +97,7 @@
       <option value="11">Znork</option>
     </select>
 
+    <label for="word4">Fourth Word</label>
     <select id="word4" size="12" onchange="updateResponse()">
       <option value="0">Blork</option>
       <option value="1">Dargfark</option>
@@ -108,7 +116,7 @@
 
   <p>
   <p>The proper response is:</p>
-  <h3 id="response"></h3>
+  <h2 id="response"></h3>
   </p>
 
   <div id="bottomSpacer"></div>
