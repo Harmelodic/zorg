@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+body,
+option {
+    font-size: 16px;
+    margin: 0;
+}
+
+label {
+    font-size: 0;
+}
+
+#zorgImg {
+    height: 135px;
+}
+
+select {
+    margin: 0px 5px;
+}
+
+#response {
+    color: green
+}
+
+#bottomSpacer {
+    height: 30vh
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+}
+
+a {
+    color: lightblue;
+}
